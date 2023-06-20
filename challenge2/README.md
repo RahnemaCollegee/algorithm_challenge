@@ -15,7 +15,7 @@
 Input:
     height = [0,2,1,3,0,6,2,1,4,2,1]
 
-Output: 6
+Output: 9
 ```
 
 ![water](./assets/w.png)
