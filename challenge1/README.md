@@ -1,6 +1,6 @@
 ## کلمه‌بازی (۵۰ امتیاز)
 
-یک رشته و الگو به شما داده می‌شود. پیدا کنید که آیا این رشته از الگوی مدنظر پیروی می کند یا نه.
+یک رشته `reshte` و یک الگو `p` به شما داده می‌شود. پیدا کنید که آیا این رشته از الگوی مدنظر پیروی می کند یا نه.
 <br/>
 زمانی می‌گوییم یک رشته از یک الگو پیروی می‌کند که تناظری یک به یک بین هر حرف از الگو با یک کلمه غیرخالی از رشته وجود داشته باشد.
 
@@ -13,7 +13,7 @@
 
 ```
 Input:
-    pattern = "xyyx"
+    p = "xyyx"
     reshte = "ali amin amin ali"
 
 Output:
@@ -24,7 +24,7 @@ Output:
 
 ```
 Input:
-    pattern = "xyyx"
+    p = "xyyx"
     reshte = "ali amin amin mohammad"
 
 Output:
@@ -35,7 +35,7 @@ Output:
 
 ```
 Input:
-    pattern = "dddd"
+    p = "dddd"
     reshte = "ali amin amin ali"
 
 Output:
@@ -46,7 +46,7 @@ Output:
 
 ```
 Input:
-    pattern = "abba"
+    p = "abba"
     reshte = "amin amin amin amin"
 
 Output:
